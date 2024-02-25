@@ -2,3 +2,4 @@
 *.pdf
 *.JP*G
 *.png
+!test/CVTestOutput.png
