@@ -40,6 +40,15 @@
     text(size: 12pt, applicantData.email)
   );
 
+  if ("website" in applicantData) {
+    contactGridContent.push(
+      image(width: 11pt, "../assets/website.svg"),
+    );
+    contactGridContent.push(
+      text(size: 12pt, applicantData.website)
+    );
+  }
+
   if ("github" in applicantData) {
     contactGridContent.push(
       image(width: 11pt, "../assets/github.svg"),
