@@ -1,4 +1,8 @@
 {
   "contactTitle": "Kontaktdaten",
-  "skillTitle": "Kernkompetenzen"
+  "skillTitle": "Kernkompetenzen",
+  "profileTitle": "Professional Profile",
+  "workHistoryTitle": "Beruflicher Werdegang",
+  "educationTitle": "Ausbildung",
+  "additionalTitle": "Ergänzend"
 }

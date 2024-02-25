@@ -16,6 +16,41 @@
     "MS Word"
   ],
   "profile": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+  "workHistory": [
+    {
+      "name": "TraumKuh",
+      "from": "January 2017",
+      "to": "April 2019",
+      "description": "Dishwasher",
+      "tasks": [
+        "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod",
+        "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod",
+        "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod"
+      ]
+    },
+    {
+      "name": "KLM",
+      "from": "April 2019",
+      "to": "June 2020",
+      "description": "Steward",
+      "tasks": [
+        "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod",
+        "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod",
+        "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod"
+      ]
+    },
+    {
+      "name": "AAA",
+      "from": "June 2020",
+      "to": "December 2021",
+      "description": "Software Developer",
+      "tasks": [
+        "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod",
+        "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod",
+        "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod"
+      ]
+    }
+  ],
   "education": [
     {
       "institute": "Kaiba University",
@@ -34,26 +69,6 @@
       "title": "PhD",
       "from": "Feb 2012",
       "to": "Sep 2018"
-    }
-  ],
-  "workHistory": [
-    {
-      "name": "",
-      "from": "",
-      "to": "",
-      "description": ""
-    },
-    {
-      "name": "",
-      "from": "",
-      "to": "",
-      "description": ""
-    },
-    {
-      "name": "",
-      "from": "",
-      "to": "",
-      "description": ""
     }
   ],
   "additional": [

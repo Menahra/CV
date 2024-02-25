@@ -1,4 +1,8 @@
 {
   "contactTitle": "Contact Details",
-  "skillTitle": "Core Skills"
+  "skillTitle": "Core Skills",
+  "profileTitle": "Professional Profile",
+  "workHistoryTitle": "Career History",
+  "educationTitle": "Education",
+  "additionalTitle": "Additional"
 }
