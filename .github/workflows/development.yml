@@ -13,7 +13,7 @@ jobs:
         uses: actions/checkout@v3
 
       - name: "test utils"
-        run: typst compile utils.typ --root .
+        run: typst compile content/utils.typ --root .
 
       - name: "test CV"
-        run: typst compile CV.typ --root .
+        run: typst compile test/CVTest.typ --root .

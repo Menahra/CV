@@ -1,0 +1,73 @@
+{
+  "name": "Rylee Adams",
+  "jobTitle": "Fullstack Dev",
+  "location": "Musterstraße 32, 10117 Berlin",
+  "phone": "0123456789",
+  "email": "rylee@adams.com",
+  "website": "https://rylee@adams.com",
+  "github": "https://github.io/ryleeAdams",
+  "skills": [
+    "finance",
+    "housekeeping",
+    "research",
+    "management",
+    "accounting",
+    "analytics",
+    "MS Word"
+  ],
+  "profile": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+  "education": [
+    {
+      "institute": "Kaiba University",
+      "title": "BA Some thing",
+      "from": "May 2004",
+      "to": "Sep 2008"
+    },
+    {
+      "institute": "Kaiba University",
+      "title": "MA Any thing",
+      "from": "Nov 2008",
+      "to": "Sep 2011"
+    },
+    {
+      "institute": "Kaiba University",
+      "title": "PhD",
+      "from": "Feb 2012",
+      "to": "Sep 2018"
+    }
+  ],
+  "workHistory": [
+    {
+      "name": "",
+      "from": "",
+      "to": "",
+      "description": ""
+    },
+    {
+      "name": "",
+      "from": "",
+      "to": "",
+      "description": ""
+    },
+    {
+      "name": "",
+      "from": "",
+      "to": "",
+      "description": ""
+    }
+  ],
+  "additional": [
+    {
+      "title": "Software",
+      "items": [
+        "MS Office", "WordPress", "Lorem"
+      ]
+    },
+    {
+      "title": "Languages",
+      "items": [
+        "English", "French", "Brasilian (Portugues)"
+      ]
+    }
+  ]
+}
