@@ -2,6 +2,6 @@
 
 #show: document => CV(
   "./test/applicant.json",
-  "../test/ApplicantPhoto.JPG",
+  "../test/DefaultApplicantPhoto.svg",
   "en_US"
 );
