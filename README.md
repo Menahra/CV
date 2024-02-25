@@ -1,6 +1,6 @@
 # Typst CV Template
 
-This project provides a template for generating a curriculum vitate based on the great [typst programming language](https://typst.app). Please refer to the official documentation of typst to learn how to compile the given template.
+This project provides a template for generating a curriculum vitae based on the great [typst programming language](https://typst.app). Please refer to the official documentation of typst to learn how to compile the given template.
 
 ## Parameters
 
