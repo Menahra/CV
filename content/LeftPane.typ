@@ -2,7 +2,8 @@
 
 #let LeftPane(
   applicantData,
-  photoPath
+  photoPath,
+  translationData
 ) = {
   align(center,
     box(
@@ -20,6 +21,6 @@
   );
   v(spacing(amount: 3));
   align(center,
-    text(size: 12pt, weight: "bold", "Contact Details")
+    text(size: 12pt, weight: "bold", translationData.contactTitle)
   )
 };

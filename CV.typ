@@ -3,9 +3,11 @@
 
 #let CV(
   jsonFilePath,
-  photoPath
+  photoPath,
+  locale,
 ) = {
   let applicantData = json(jsonFilePath);
+  let translations = json("./translations/" + locale + ".json");
 
   // remove margins of page
   set page(
@@ -23,7 +25,8 @@
       inset: spacing(amount: 3),
       LeftPane(
         applicantData,
-        photoPath
+        photoPath,
+        translations
       )
     ),
     box(
