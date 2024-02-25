@@ -19,4 +19,4 @@ The template expects the folowing three parameters:
 
 ## Example output
 
-![The example output which is generated when the cv template is used with the parameters given in the test file under test/CVTest.typ](test/CVTestOutput.png)
+![The example output which is generated when the cv template is used with the parameters given in the test file under test/CVTest.typ](test/CVTemplateTestOutput.png)
