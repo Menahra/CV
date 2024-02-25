@@ -2,7 +2,7 @@
 #import "content/LeftPane.typ": LeftPane;
 #import "content/RightPane.typ": RightPane;
 
-#let CV(
+#let CVTemplate(
   jsonFilePath,
   photoPath,
   locale,

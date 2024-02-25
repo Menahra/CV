@@ -1,6 +1,6 @@
-#import "../CV.typ": CV;
+#import "../CVTemplate.typ": CVTemplate;
 
-#show: document => CV(
+#show: document => CVTemplate(
   "./test/applicant.json",
   "../test/DefaultApplicantPhoto.svg",
   "en_US"

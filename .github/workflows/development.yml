@@ -4,7 +4,7 @@ on: push
 
 jobs:
   test:
-    name: Test whether CV and all subfiles compile
+    name: Test whether CVTemplate and all subfiles compile
     runs-on: ubuntu-latest
     container:
       image: ghcr.io/typst/typst:latest
@@ -15,5 +15,5 @@ jobs:
       - name: "test utils"
         run: typst compile content/utils.typ --root .
 
-      - name: "test CV"
-        run: typst compile test/CVTest.typ --root .
+      - name: "test CVTemplate"
+        run: typst compile test/CVTemplateTest.typ --root .
