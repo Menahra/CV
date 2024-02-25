@@ -55,5 +55,10 @@
     center,
     text(16pt, accentTextColor, weight: "bold", translationData.additionalTitle)
   );
-  
+  for additionalItem in applicantData.additional {
+    text(11pt, weight: "bold", additionalItem.title);
+    linebreak();
+    text(11pt, additionalItem.items.join(", "));
+    v(spacing(amount: 0));
+  };
 };
