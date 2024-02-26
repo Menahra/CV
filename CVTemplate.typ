@@ -4,16 +4,55 @@
 
 #let CVTemplate(
   jsonFilePath,
+  configJsonFilePath,
   photoPath,
   locale,
 ) = {
   let applicantData = json(jsonFilePath);
+  let config;
+  if (configJsonFilePath != none) {
+    config = json(configJsonFilePath);
+  }
   let translations = json("./translations/" + locale + ".json");
 
   // remove margins of page
   set page(
     margin: (x: 0pt, y: 0pt)
   )
+
+  let rightContent;
+  if (config == none) {
+    rightContent = box(
+      width: 100%,
+      height: 100%,
+      inset: (x: spacing(amount: 3), y: spacing(amount: 4)),
+      RightPane(
+        applicantData,
+        translations
+      )
+    );
+  } else {
+    rightContent = box(
+      width: 100%,
+      height: 100%,
+      inset: (x: spacing(amount: 3), top: spacing(amount: 4), bottom: spacing(amount: 1)),
+      [
+        #box(
+          width: 100%,
+          height: 95%,
+          inset: (bottom: spacing(amount: 1.5)),
+          RightPane(
+            applicantData,
+            translations
+          )
+        )
+        #align(
+          center + bottom,
+          text(7pt, "Hey there")
+        )
+      ]
+    )
+  }
 
   grid(
     columns: (30%, 70%),
@@ -30,14 +69,6 @@
         translations
       )
     ),
-    box(
-      width: 100%,
-      height: 100%,
-      inset: (x: spacing(amount: 3), y: spacing(amount: 4)),
-      RightPane(
-        applicantData,
-        translations
-      )
-    )
+    rightContent
   )
 };
