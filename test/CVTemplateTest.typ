@@ -5,4 +5,4 @@
   "./test/config.json",
   "../test/DefaultApplicantPhoto.svg",
   "en_US"
-);  
+);

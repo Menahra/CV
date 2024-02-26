@@ -4,5 +4,6 @@
   "profileTitle": "Professional Profile",
   "workHistoryTitle": "Beruflicher Werdegang",
   "educationTitle": "Ausbildung",
-  "additionalTitle": "Ergänzend"
+  "additionalTitle": "Ergänzend",
+  "attribution": "Dieses CV wurde generiert auf Basis von: https://github.com/Menahra/CVTemplate"
 }

@@ -48,7 +48,7 @@
         )
         #align(
           center + bottom,
-          text(7pt, "Hey there")
+          text(7pt, translations.attribution)
         )
       ]
     )

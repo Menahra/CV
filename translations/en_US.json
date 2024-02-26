@@ -4,5 +4,6 @@
   "profileTitle": "Professional Profile",
   "workHistoryTitle": "Career History",
   "educationTitle": "Education",
-  "additionalTitle": "Additional"
+  "additionalTitle": "Additional",
+  "attribution": "This cv was generated on basis of: https://github.com/Menahra/CVTemplate"
 }
